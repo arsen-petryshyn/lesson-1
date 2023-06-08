@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>task0</title>
+</head>
+
+<body>
+	<h>Задача 0</h>
+	<p>Дано значення a, b, c. Обчислити значення виразів.</p>
+	<img src="./task0.jpg">
+	<br>
+	<script>
+		//Введення даних
+		let a = parseInt(prompt('Значення а', '1'))
+		let b = parseInt(prompt('Значення b', '1'))
+		let c = parseInt(prompt('Значення c', '1'))
+
+		//Обчислення даних
+		let s1 = a + 12 + b
+		let s2 = Math.sqrt((a + b) / (2 * a))
+		let s3 = Math.cbrt((a + b) * c)
+		let s4 = Math.sin(a / -b)
+
+		//Вивід даних
+		document.write(`
+		s1 = ${s1}<br>
+		s2 = ${s2}<br>
+		s3 = ${s3}<br>
+		s4 = ${s4}<br>
+		`)
+
+
+	</script>
+
+</body>
+
+</html>

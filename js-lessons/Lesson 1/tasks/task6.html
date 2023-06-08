@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>task6</title>
+</head>
+
+<body>
+	<h1>Задача №6</h1>
+	<p>З клавіатури вводяться вартість товару та кількість одиниць 3 товарів. Обчислити вартість кожного товару окремо
+		та загальну вартість. Вивести чек (як у супермаркеті) використовуючи елементи розмітки.</p>
+	<script>
+		//введення даних
+		let product1 = parseFloat(prompt('вартість товару 1', '0'))
+		let quantity1 = parseInt(prompt('кількість товару 1', '0'))
+		let product2 = parseFloat(prompt('вартість товару 2', '0'))
+		let quantity2 = parseInt(prompt('кількість товару 2', '0'))
+		let quantity3 = parseInt(prompt('кількість товару 3', '0'))
+		let product3 = parseFloat(prompt('вартість товару 3', '0'))
+		//підрахунок
+		let sum1 = product1 * quantity1
+		let sum2 = product2 * quantity2
+		let sum3 = product3 * quantity3
+		let totalSum = sum1 + sum2 + sum3
+		//виведення результату
+		document.write(`
+		артість товару 1 = ${sum1} <br>
+		артість товару 2 = ${sum2} <br>
+		артість товару 3 = ${sum3} <br>
+		загальна вартість = ${totalSum} <br>
+		`)
+	</script>
+</body>
+
+</html>
