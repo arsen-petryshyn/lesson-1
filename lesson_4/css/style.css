@@ -1,0 +1,56 @@
+@import url(reset.css);
+
+* {
+	color: black;
+}
+p {
+	color: rgb(95, 95, 95);
+}
+
+a {
+	color: crimson;
+}
+
+h1 {
+	color: aquamarine;
+}
+h3 {
+	color: rgb(251, 255, 0);
+}
+h5 {
+	color: rgb(255, 255, 254);
+}
+div.bg-color {
+	background-color: rgb(188, 188, 188);
+}
+.bg-color.nature {
+	background-color: rgb(3, 169, 0);
+}
+.list1,
+.list2 {
+	color: blueviolet;
+}
+
+.text p {
+	color: blue;
+}
+.ul-list1 .list1-1,
+.ul-list2 .list2-1 {
+	color: rgb(227, 125, 248);
+}
+.ul-list2 * {
+	color: rgb(75, 3, 142);
+	background-color: aquamarine;
+}
+.history > p {
+	color: black;
+}
+.city ~ a {
+	color: rgb(112, 219, 248);
+}
+.vyzhnycia-img + p {
+	color: black;
+}
+#block3 {
+	color: palevioletred;
+}
