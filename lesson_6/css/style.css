@@ -1,0 +1,88 @@
+@import url(reset.css);
+/* Підключення за допомогою плагіна */
+@import url("https://fonts.googleapis.com/css?family=Poppins:regular,600,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Inter:regular,500,600,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=DM+Serif+Text:regular&display=swap");
+
+.wrapper1 {
+	max-width: 700px;
+	margin: 0 auto 100px;
+	font-family: "Inter", sans-serif;
+	font-size: 18px;
+	line-height: 1.46;
+	color: #7d7d7d;
+}
+#img1 {
+	width: 100%;
+	margin-bottom: 7px;
+}
+.wrapper1 h1 {
+	margin: 0 auto 42px;
+	color: #37393f;
+	font-family: "Poppins";
+	font-size: 30px;
+	font-style: normal;
+	font-weight: 600;
+	text-transform: capitalize;
+	line-height: 1.27;
+}
+
+.wrapper1 h3 {
+	color: #6b77e5;
+	font-family: "Poppins";
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 1.27;
+	margin: 0 auto 12px;
+}
+.wrapper1 h2 {
+	color: #37393f;
+	font-family: "Poppins";
+	font-size: 25px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 1.27;
+	margin: 0 auto 15px;
+}
+.wrapper1 h3 span {
+	color: #40ddb6;
+	margin: 0 auto 20px;
+}
+
+.wrapper1 li {
+	margin: 0 auto 30px;
+}
+
+.wrapper1 p {
+	margin: 0 auto 40px;
+}
+.vertical-align__item {
+	width: 49%;
+	vertical-align: top;
+	display: inline-block;
+}
+/* =========================== */
+
+.wrapper2 {
+	color: #474747;
+	font-family: "Inter";
+	font-size: 20px;
+	font-style: normal;
+	line-height: 1.8;
+	max-width: 700px;
+	margin: 0 auto 100px;
+}
+.wrapper2 h3 {
+	color: #d06b00;
+	margin-bottom: 13px;
+}
+.wrapper2 h1 {
+	color: #0e333d;
+	font-family: "DM Serif Text", serif;
+	font-size: 59px;
+	font-style: normal;
+	line-height: 1.46;
+	margin-bottom: 25px;
+	text-transform: capitalize;
+}
