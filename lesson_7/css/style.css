@@ -1,0 +1,239 @@
+@import url(fonts.css);
+@import url(reset.css);
+/* Підключення за допомогою плагіна */
+@import url("https://fonts.googleapis.com/css?family=Poppins:regular,600,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Inter:regular,500,600,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Cormorant+Infant:700&display=swap");
+.container-1 {
+	max-width: 1218px;
+	margin: 0 auto;
+	padding: 150px 15px;
+
+	font-family: "Inter", sans-serif;
+	color: #7d7d7d;
+	font-family: Inter;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 1.46;
+}
+
+#template {
+	text-align: center;
+	color: #37393f;
+	font-weight: 500;
+	margin-bottom: 16px;
+}
+.container-1 h1 {
+	color: #37393f;
+	text-align: center;
+	font-family: Poppins;
+	font-size: 60px;
+	font-style: normal;
+	font-weight: 700;
+	margin-bottom: 70px;
+}
+.container-1 h2 {
+	color: #37393f;
+	font-family: Poppins;
+	font-size: 40px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 1.21;
+	margin-bottom: 11px;
+}
+
+.container-1 h3 {
+	color: #37393f;
+	font-family: Poppins;
+	font-size: 30px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	margin-bottom: 8px;
+}
+.container-1 p {
+	margin-bottom: 24px;
+}
+.container-1 span {
+	color: #40ddb6;
+	font-weight: 400;
+}
+
+.chapter {
+	margin-bottom: 100px;
+}
+
+.container-2 {
+	max-width: 830px;
+	margin: 0 auto;
+	padding: 0px 30px 150px;
+
+	font-family: "Inter", sans-serif;
+	color: #7d7d7d;
+	font-family: Inter;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 1.46;
+}
+.container-2 h1 {
+	color: #37393f;
+	font-family: Poppins;
+	font-size: 40px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 1.27;
+	margin-bottom: 13;
+}
+.container-2 p {
+	margin-bottom: 35px;
+}
+.container-2 ul,
+.container-2 ol {
+	padding-left: 45px;
+	line-height: 2.5;
+	font-weight: 500;
+	margin-bottom: 35px;
+}
+
+.container-3 {
+	max-width: 1240px;
+	margin: 0 auto;
+	padding: 150px 15px;
+
+	color: #807d7e;
+	font-family: "Causten";
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 400;
+}
+.container-3 h2 {
+	color: #3c4242;
+	font-size: 28px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 1.67;
+	margin-bottom: 30px;
+}
+.container-3 h3 {
+	color: #807d7e;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 1.67;
+	margin-bottom: 25px;
+}
+.container-3 p {
+	margin-bottom: 20px;
+}
+
+.container-4 {
+	padding: 100px 0;
+	font-family: "Cormorant Infant";
+}
+
+.jewels-container {
+	max-width: 1100px;
+	margin: 0 auto;
+	font-size: 0;
+}
+.jewels-content {
+	display: inline-block;
+	max-width: 503px;
+	padding: 70px 0;
+	margin-right: 75px;
+
+	font-size: 16px;
+	font-weight: 700;
+}
+.jewels-label {
+	color: #d58417;
+	font-size: 20px;
+	line-height: 1;
+	margin-bottom: 27px;
+}
+.jewels-title {
+	color: #000;
+	font-size: 64px;
+	line-height: 1;
+	margin-bottom: 30px;
+}
+.jewels-text p {
+	color: #606060;
+	font-size: 31px;
+	line-height: 1.4;
+}
+
+.jewels-images {
+	vertical-align: top;
+	display: inline-block;
+	font-size: 0;
+}
+
+.jewels-wrapper-image {
+	vertical-align: middle;
+	display: inline-block;
+	border: 1px solid #502203;
+	border-radius: 235px;
+}
+.jewels-wrapper-image img {
+	border-radius: 235px;
+}
+.first-image {
+	margin-right: 30px;
+	width: 177px;
+	height: 336px;
+}
+
+.first-image img {
+	margin-left: -10px;
+	padding-top: 14px;
+}
+.second-image {
+	width: 307px;
+	height: 500px;
+}
+.second-image img {
+	margin-left: -11px;
+	padding-top: 19px;
+}
+
+.border-practice {
+	margin: 0 auto;
+	padding: 100px;
+	font-size: 40px;
+	font-weight: 700;
+}
+.square {
+	display: inline-block;
+	padding: 40px;
+	border-top: 5px solid #481a8d;
+	border-right: 8px dotted green;
+	border-bottom: 12px double blue;
+	border-left: 15px dashed yellow;
+	outline: 10px solid #000;
+	box-shadow: 51px 51px 51px rgba(0, 0, 0, 0.27);
+}
+.radius {
+	margin-left: 150px;
+	display: inline-block;
+	padding: 40px;
+	border-radius: 10px;
+	outline: 20px solid #cecece;
+	box-shadow: 0px 0px 230px rgba(0, 0, 0, 1);
+}
+.circle {
+	background: #bddf10;
+	margin-left: 150px;
+	display: inline-block;
+	vertical-align: middle;
+	padding: 40px;
+
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+	outline: 20px solid #000;
+	box-shadow: -61px -61px 137px -40px rgba(0, 0, 0, 0.9);
+	opacity: 0.5;
+}
