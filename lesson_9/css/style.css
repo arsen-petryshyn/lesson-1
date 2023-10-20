@@ -1,0 +1,432 @@
+@import url(fonts.css);
+@import url(reset.css);
+@import url("https://fonts.googleapis.com/css?family=Poppins:regular,600,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Inter:regular,500,600,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Cormorant+Infant:700&display=swap");
+
+main {
+	@import url("https://fonts.googleapis.com/css?family=Cormorant+Infant&display=swap");
+	padding: 30px;
+}
+.consalting-website1 {
+	max-width: 692px;
+	margin: 0 auto 150px;
+}
+.consalting-website1__content {
+	color: #7d7d7d;
+	font-family: "Inter";
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 1.46;
+}
+.consalting-website1__content h2 {
+	color: #37393f;
+	font-family: "Poppins";
+	font-size: 30px;
+	font-weight: 600;
+	line-height: 1.27;
+	margin-bottom: 4px;
+}
+.consalting-website1__content h4 {
+	color: #6b77e5;
+	font-family: "Poppins";
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 1.27;
+	margin-bottom: 12px;
+}
+.consalting-website1__content p {
+	margin-bottom: 40px;
+}
+.consalting-website1__image-block {
+	max-width: 100%;
+	font-size: 0;
+	margin-bottom: 50px;
+}
+.consalting-website1__image-block img {
+	max-width: 50%;
+	margin-right: 29px;
+	vertical-align: middle;
+}
+
+.consalting-website1__image-text {
+	display: inline-block;
+	font-size: 18px;
+	max-width: 50%;
+	vertical-align: middle;
+}
+.consalting-website1__image-text h3 {
+	color: #37393f;
+	font-family: "Poppins";
+	font-size: 25px;
+	font-weight: 600;
+	line-height: 1.27;
+	margin-bottom: 15px;
+}
+.consalting-website1__image-text h4 {
+	max-width: 331px;
+	color: #40ddb6;
+	font-family: "Poppins";
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 1.27;
+	margin-bottom: 21px;
+}
+
+.consalting-website1__image-text li {
+	background: url(../img/list.png) no-repeat;
+	padding-left: 35px;
+	padding-top: 2.5px;
+
+	color: #7d7d7d;
+	margin-bottom: 30px;
+}
+
+.consalting-website1__image-text *:last-child {
+	margin-bottom: 0;
+}
+/* ============================================ */
+.consalting-website2 {
+	max-width: 673px;
+	margin: 0 auto 150px;
+}
+.consalting-website2__content {
+	color: #7d7d7d;
+	font-family: "Inter";
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	margin-bottom: 48px;
+}
+.consalting-website2__content *:last-child {
+	margin-bottom: 0px;
+}
+.consalting-website2 h5 {
+	color: #37393f;
+	font-weight: 500;
+	line-height: normal;
+	margin-bottom: 16px;
+	line-height: normal;
+}
+.consalting-website2 h5::before {
+	background: #40ddb6;
+	width: 12px;
+	height: 12px;
+	display: inline-block;
+	content: "";
+	margin-right: 8px;
+	vertical-align: middle;
+	margin-top: -5px;
+}
+.consalting-website2 h1 {
+	display: inline-block;
+	max-width: 414px;
+
+	color: #37393f;
+	font-family: "Poppins";
+	font-style: normal;
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 1.21;
+	margin-bottom: 10px;
+}
+.consalting-website2__content p {
+	margin-bottom: 16px;
+	line-height: 1.46;
+}
+.consalting-website2__container {
+	border: 1px solid #e3e3e3;
+	padding: 28px 41px 28px 84px;
+	margin-bottom: 31px;
+	background: url(../img/list.png) no-repeat;
+	background-position: 38px 28px;
+}
+.consalting-website2__container h3 {
+	color: #37393f;
+	font-family: "Poppins";
+	font-size: 20px;
+	font-weight: 600;
+	line-height: normal;
+	margin-bottom: 12px;
+}
+.consalting-website2__container p {
+	color: #7d7d7d;
+	font-family: Inter;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 1.46;
+}
+
+.consalting-website2__container:last-of-type {
+	margin-bottom: 48px;
+}
+
+.consalting-website2 a {
+	display: inline-block;
+	background: #6b77e5;
+	padding: 21px 35px 22px 35px;
+	color: #fff;
+	text-align: center;
+	font-family: Inter;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+	text-transform: capitalize;
+}
+.consalting-website2 a:hover {
+	background: linear-gradient(75deg, #4f5bc6 0%, #926be5 100%);
+	box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.3);
+}
+/* ============================================ */
+.consalting-website3 {
+	max-width: 1250px;
+	margin: 0 auto;
+	font-style: normal;
+	text-align: center;
+	font-size: 0;
+}
+.consalting-website3__title {
+	text-align: center;
+	color: #37393f;
+	margin-bottom: 77px;
+}
+.consalting-website3__title h5 {
+	font-family: "Inter";
+	font-size: 18px;
+	font-weight: 500;
+	line-height: normal;
+	margin-bottom: 16px;
+}
+
+.consalting-website3__title h5::before {
+	background: #40ddb6;
+	width: 12px;
+	height: 12px;
+	display: inline-block;
+	content: "";
+	margin-right: 8px;
+	vertical-align: middle;
+	margin-top: -5px;
+	text-transform: capitalize;
+}
+.consalting-website3__title h2 {
+	text-align: center;
+	font-family: "Poppins";
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 1.21;
+	text-transform: capitalize;
+}
+.consalting-website3__cards {
+	text-align: center;
+	display: inline-block;
+	vertical-align: top;
+	max-width: 384px;
+	margin-right: 31px;
+	margin-bottom: 50px;
+	padding: 0px 43px 58px;
+	background: #f4f4f4;
+}
+.consalting-website3__cards img {
+	margin-top: -36px;
+	margin-bottom: 22px;
+}
+.consalting-website3__cards h3 {
+	color: #37393f;
+	font-family: Poppins;
+	font-size: 25px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 1.27;
+	margin-bottom: 16px;
+	text-transform: capitalize;
+}
+
+.consalting-website3__cards p {
+	display: inline-block;
+	color: #7d7d7d;
+	font-family: "Inter";
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 1.46;
+	margin-bottom: 37px;
+}
+.consalting-website3__cards a {
+	color: #6b77e5;
+	font-family: "Inter";
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+	text-transform: capitalize;
+}
+.consalting-website3 a:hover {
+	color: #4f5bc6;
+}
+
+/* ============================================ */
+
+.consalting-website4 {
+	max-width: 1214px;
+	margin: 0 auto 150px;
+	font-family: "Cormorant Infant";
+	font-size: 0px;
+	font-style: normal;
+	font-weight: 700;
+}
+
+.consalting-website4 h2 {
+	display: inline-block;
+	vertical-align: middle;
+	max-width: 488px;
+	color: #000;
+	font-size: 60px;
+	line-height: 1.15;
+}
+
+.consalting-website4 h2::after {
+	content: "";
+	display: block;
+	max-width: 65%;
+	height: 3px;
+	background: #78473b;
+	margin-top: 13px;
+}
+
+.consalting-website4 p {
+	font-size: 24px;
+	line-height: 1.4;
+	margin-bottom: 4px;
+}
+.consalting-website4__block-1 {
+	max-width: 339px;
+
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 45px;
+	transition: transform 0.8s ease 0s;
+}
+.consalting-website4__block-2 {
+	max-width: 339px;
+	display: inline-block;
+	vertical-align: middle;
+	transition: transform 0.8s ease 0s;
+}
+
+.consalting-website4__images {
+	border: 1px solid black;
+	margin-bottom: 34px;
+}
+.consalting-website4__images img {
+	max-width: 100%;
+	margin: 9px -10px -9px 10px;
+}
+.consalting-website4 h3 {
+	max-width: 339px;
+	color: #000;
+	font-size: 46px;
+	line-height: 1.13;
+	margin-bottom: 40px;
+
+	opacity: 0;
+	visibility: hidden;
+	transition: opacity 0.8s ease 0s;
+}
+
+.consalting-website4__block-1:hover h3,
+.consalting-website4__block-2:hover h3 {
+	opacity: 1;
+	visibility: visible;
+}
+.consalting-website4__block-1:hover,
+.consalting-website4__block-2:hover {
+	transform: translateY(100px);
+}
+
+/* ============================================ */
+.game-container {
+	width: 1200px;
+	margin: 0 auto;
+	background-color: #e1e1e1;
+}
+
+.games__box {
+	margin: 0 auto;
+
+	padding: 10px;
+	width: 1000px;
+	height: 1000px;
+}
+.game-container p {
+	padding: 25px;
+	text-align: center;
+	font-family: "Inter";
+	font-size: 35px;
+}
+.games__line {
+	visibility: hidden;
+	opacity: 0;
+	background-color: #dbdb00;
+	cursor: crosshair;
+	/* opacity: 0.5; */
+}
+.line-1 {
+	visibility: visible;
+	opacity: 1;
+	width: 2%;
+	height: 10%;
+}
+.line-2 {
+	width: 2%;
+	margin-left: 94%;
+	height: 40%;
+	margin-top: -10%;
+}
+.line-3 {
+	width: 50%;
+	margin-left: 46%;
+	height: 5%;
+	margin-top: -5%;
+}
+.line-4 {
+	width: 4%;
+	margin-left: 46%;
+	height: 35%;
+	margin-top: -5%;
+}
+.win {
+	max-width: 40%;
+	margin: -5% auto 0;
+	padding: 25px;
+	text-align: center;
+	font-family: "Inter";
+	font-size: 35px;
+}
+
+.games__box > .line-1:hover {
+	width: 96%;
+}
+.line-1:hover + .line-2 {
+	visibility: visible;
+}
+.line-2:hover,
+.line-3:hover,
+.line-4:hover {
+	visibility: visible;
+	opacity: 1;
+}
+
+.line-1:hover + .line-2,
+.line-2:hover + .line-3,
+.line-3:hover + .line-4,
+.line-4:hover + .win {
+	visibility: visible;
+}
+.win:hover {
+	visibility: visible;
+	opacity: 1;
+}
