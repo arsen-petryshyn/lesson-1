@@ -1,0 +1,429 @@
+@import url(fonts.css);
+@import url(reset.css);
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,600&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Inter:400&display=swap");
+
+.wrapper {
+	overflow: clip;
+	min-height: 100%;
+
+	display: flex;
+	flex-direction: column;
+}
+.wrapper > main {
+	flex-grow: 1;
+}
+
+[class*="__container"] {
+	max-width: 1260px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+.page {
+}
+
+/* ------------ header ------------ */
+.header {
+	background: #ffffff;
+	padding: 35px 0 30px;
+	border-bottom: 1px solid #bebcbd;
+	position: sticky;
+	top: 0;
+	left: 0;
+	z-index: 10;
+}
+
+.header__container {
+	display: flex;
+}
+.header__body {
+	display: flex;
+	flex: 1 1 auto;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.body-header {
+}
+.body-header__logo {
+}
+.body-header__search {
+	display: inline-flex;
+	gap: 12px;
+	text-align: center;
+	color: #333;
+	font-family: "Causten", sans-serif;
+	font-size: 18px;
+	border-radius: 8px;
+	background: #f6f6f6;
+	padding: 13px 48px;
+	transition: all 0.3s;
+}
+.body-header__search::before {
+	content: "";
+	background: url("../img/search.svg") 0 0 no-repeat;
+	width: 20px;
+	min-height: 20px;
+}
+.body-header__language {
+}
+.language {
+	font-family: "Causten";
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	color: #333;
+}
+.language__text {
+	display: inline-flex;
+	align-items: center;
+	gap: 12px;
+}
+.language__text::after {
+	content: "";
+	background: url(../img/vector.svg) 0 0 no-repeat;
+	width: 10px;
+	height: 5px;
+	flex-shrink: 0;
+}
+.language__list {
+}
+.language__item {
+}
+.body-header__button {
+}
+.button-header {
+	display: flex;
+	align-items: center;
+	column-gap: 30px;
+}
+.button-header__login {
+	color: #fff;
+	border-radius: 8px;
+	background: #8a33fd;
+}
+.button {
+	padding: 12px 48px;
+	text-align: center;
+	font-family: "Causten";
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	transition: all 0.4s;
+}
+.button-header__sing-up {
+	color: #8a33fd;
+	border-radius: 8px;
+	border: 1px solid #3c4242;
+}
+
+/* ------------ products ------------ */
+
+.products__title {
+	margin: 100px 0 70px;
+}
+.title {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+	color: #3c4242;
+	font-family: "CoreSans";
+	font-size: 34px;
+	font-weight: 600;
+	line-height: 0.98;
+	letter-spacing: 0.68px;
+	text-transform: capitalize;
+}
+
+.products__title::before {
+	content: " ";
+	flex: 0 0 auto;
+	align-self: flex-start;
+	width: 6px;
+	height: 30px;
+	border-radius: 10px;
+	background-color: #8a33fd;
+}
+
+.products__body {
+	padding-bottom: 50px;
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 -25px;
+}
+.products__column {
+	padding: 0 25px;
+	flex-grow: 0;
+	flex-shrink: 0;
+	flex-basis: 25%;
+	margin-bottom: 50px;
+}
+.products__item {
+}
+.item-product {
+	display: flex;
+	flex-direction: column;
+}
+.item-product__image {
+	overflow: hidden;
+	border-radius: 10px;
+}
+.item-product__image img {
+	max-width: 100%;
+	transition: transform 0.6s;
+}
+.item-product__image:hover img {
+	transform: scale(1.1);
+}
+.item-product__image:not(:last-child) {
+	margin-bottom: 15px;
+}
+.item-product__body {
+	display: flex;
+	flex-grow: 1;
+}
+.item-product__content {
+	flex-grow: 1;
+}
+.item-product__title {
+}
+.item-product__title:not(:last-child) {
+	margin-bottom: 10px;
+}
+.item-product__link-title {
+	font-family: "Causten";
+	color: #2a2f2f;
+	font-size: 17.875px;
+	font-style: normal;
+	font-weight: 700;
+}
+.item-product__text {
+	color: #7f7f7f;
+	font-family: "Causten";
+	font-size: 13.407px;
+	font-style: normal;
+	font-weight: 500;
+}
+.item-product__link {
+	align-self: flex-start;
+	min-height: 45px;
+	flex-grow: 0;
+	flex-shrink: 0;
+	flex-basis: 18px;
+	background: url(../img/arrow.svg) center no-repeat;
+	transition: transform 0.4s;
+}
+.item-product__link:hover {
+	transform: scale(1.2);
+}
+/* ------------ wishlist ------------ */
+
+.wishlist__container {
+}
+.wishlist__content {
+	max-width: 935px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+.wishlist__title {
+	margin-bottom: 50px;
+}
+.wishlist__body {
+}
+.wishlist__card {
+	display: flex;
+	justify-content: space-between;
+	gap: 36px;
+	align-items: center;
+}
+.card-wishlist {
+	padding-bottom: 30px;
+	margin-bottom: 30px;
+	border-bottom: 1px solid #edeef2;
+}
+.card-wishlist__button {
+	background: url(../img/cross.svg) 0 0 no-repeat;
+	width: 22px;
+	height: 22px;
+	transition: all 0.4s;
+	flex: 0 0 auto;
+}
+.card-wishlist__button:hover {
+	transform: scale(1.2);
+}
+.card-wishlist__image {
+}
+.card-wishlist__content {
+	display: flex;
+	flex-direction: column;
+	gap: 12px;
+	flex: 1 0 350px;
+
+	color: #3c4242;
+	font-family: "Causten";
+	font-size: 22px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+}
+.card-wishlist__title {
+	color: #3c4242;
+}
+.card-wishlist__description {
+}
+.card-wishlist__value {
+}
+.card-wishlist__price {
+	color: #807d7e;
+	font-family: "Causten";
+	font-size: 22px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+	letter-spacing: 0.44px;
+}
+.card-wishlist__button-add {
+	padding: 14px 28px;
+	border-radius: 8px;
+	background: #8a33fd;
+
+	color: #fff;
+	text-align: center;
+	font-family: "Causten";
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+.card-wishlist__button-add:hover {
+	background: #7728de;
+}
+span {
+	color: #807d7e;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	letter-spacing: 0.44px;
+}
+/* ------------ Orders ------------ */
+.page__orders {
+}
+.orders {
+}
+.orders__container {
+	font-family: "Causten";
+	max-width: 900px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+.orders__body {
+}
+.orders-card {
+}
+.card-order {
+}
+.card-order__status {
+	padding: 28px 48px;
+	border-radius: 8px;
+	background: #f6f6f6;
+	margin-bottom: 30px;
+}
+.status-order {
+}
+.status-order__title {
+	color: #3c4242;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+	margin-bottom: 14px;
+}
+.status-order__content {
+	display: flex;
+	justify-content: space-between;
+
+	color: #807d7e;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+	gap: 50px;
+}
+.status-order__date {
+}
+.info {
+}
+.info__order {
+	margin-bottom: 7px;
+}
+.info__delivery {
+}
+.status-order__status {
+	text-align: right;
+}
+.info__status {
+	margin-bottom: 7px;
+}
+.info__method {
+}
+.card-order__item {
+}
+.item-order {
+	display: flex;
+	justify-content: space-between;
+	gap: 25px;
+	padding: 30px 0;
+	border-bottom: #edeef2 solid 1px;
+	margin-bottom: 30px;
+	align-items: center;
+}
+.item-order__img {
+	flex: 0 0 auto;
+	overflow: hidden;
+	border-radius: 4px;
+	max-width: 96px;
+	max-height: 96px;
+}
+.item-order__content {
+	flex: 1 0 auto;
+}
+.item-order__title {
+	display: inline-block;
+	color: #3c4242;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+	margin-bottom: 10px;
+}
+.item-order__color {
+	margin-bottom: 5px;
+}
+.item-order__quantity {
+	margin-bottom: 5px;
+}
+.item-order__total {
+	color: #807d7e;
+}
+.item-order__button {
+	flex: 0 0 auto;
+	padding: 14px 28px;
+	border-radius: 8px;
+	background: #8a33fd;
+	color: #fff;
+	text-align: center;
+	font-family: "Causten";
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 1.2;
+}
+/* ------------ footer ------------ */
+.footer {
+	text-align: center;
+	background-color: rgb(80, 106, 255);
+	padding: 15px;
+	font-family: Arial, Helvetica, sans-serif;
+}
